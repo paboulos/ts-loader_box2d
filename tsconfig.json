@@ -1,0 +1,17 @@
+{
+   "compilerOptions": {
+     "target":"es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "js",
+    "baseUrl": ".", 
+    "paths": {
+      "jquery": ["node_modules/jquery/dist/jquery"],
+      "box2dweb-commonjs": ["node_modules/box2dweb-commonjs/Box2dWeb-2.1.a.3"]
+    }
+    },
+     "files": [
+          "./components/ts/app.ts",
+          "typings/index.d.ts"
+     ]
+}
